@@ -9,3 +9,6 @@
 		- animation
 			- original projects and olaf fanarts
 		- about
+	- color palette: alpha 0.6~0.8, background slytherin green, text-color for section titles silver
+	- after opening sequence and before clicking into sections, only show background color with section titles align in the center vertically
+	- about page text-color black, font-family typewriter
