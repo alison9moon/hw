@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	background-color: #0f2818;
+	/* font-family: "American Typewriter";*/
+
+}
+
+h1 {
+	padding: 50px;
+	color: #fff;
+	display: block;
+	text-align: center;
+	font-weight: 400;
+	font-size: 40px;
+	font-family: 'Liu Jian Mao Cao', cursive;
+}
+
+
+ul {
+	width: 100%;
+	list-style-type: none;
+}
+
+li {
+	max-width: 100%;
+	margin: 70px;
+	display: flex;
+	justify-content: center;
+	background-color: #2a623d22;
+}
+
+a {
+	font-family: "American Typewriter";
+	text-align: center;
+	color: #fff;
+	margin: 20px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #aaaaaa;
+}
+
+
