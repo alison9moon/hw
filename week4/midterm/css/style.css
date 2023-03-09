@@ -3,19 +3,31 @@
 * {
 	margin: 0;
 	padding: 0;
-	background-color: #0f2818;
-	/* font-family: "American Typewriter";*/
+	background-image: url("../img/DSC06623-7.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
 
 }
 
 h1 {
-	padding: 50px;
+	padding: 45px;
 	color: #fff;
 	display: block;
 	text-align: center;
 	font-weight: 400;
-	font-size: 40px;
+	font-size: 60px;
 	font-family: 'Liu Jian Mao Cao', cursive;
+	cursor: pointer;
+}
+
+footer {
+	text-align: center;
+	color: #ffffff;
+	font-size: 10px;
+	display: flex;
+	flex-direction: column;
+	margin: 2px;
+	padding: 4px;
 }
 
 
@@ -28,20 +40,28 @@ li {
 	max-width: 100%;
 	margin: 70px;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
-	background-color: #2a623d22;
 }
 
 a {
-	font-family: "American Typewriter";
+	font-family: "Courier";
 	text-align: center;
 	color: #fff;
 	margin: 20px;
 	text-decoration: none;
+	font-size: 25px;
 }
 
 a:hover {
-	color: #aaaaaa;
+	color: #244682;
+}
+
+@media only screen and (max-width: 768px) {
+	* {
+		background-image: url("../img/DSC06623-6.jpg");
+		background-size: 100% auto;
+	}
 }
 
 
