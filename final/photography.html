@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="photography.css">
+	<title>photography</title>
+</head>
+<body>
+	<header>
+		<a href="index.html" class="title">☽  alison杨</a>
+		<nav class="mainmenu">
+			<ul>
+				<li><a href="sketchbook.html">sketchbook</a></li>
+				<li><a href="animation.html">animation</a></li>
+				<li><a href="photography.html">photography</a>
+					<ul>
+						<li><a href="unrolled.html">unrolled</a></li>
+						<li><a href="savetheday.html">save the day</a></li>
+					</ul>
+				</li>
+				<li><a href="about.html">about</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="container">
+		<a href="unrolled.html"><img src=""></a>
+		<a href="savetheday.html"><img src="img/savetheday.jpg"></a>
+	</div>
+
+	<script type="text/javascript">
+		var time = new Date();
+		var hour = time.getHours();
+		console.log(hour);
+		if (hour < 7 || hour > 19)
+			document.body.style.backgroundImage = "url(img/DSC06623-8.jpg)";
+		else
+			document.body.style.backgroundImage = "url(img/DSC06623-7.jpg)";
+	</script>
+
+</body>
+</html>

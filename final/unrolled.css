@@ -1,0 +1,84 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Courier";
+	background-attachment: fixed;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1000;
+}
+
+.title {
+	color: #fff;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.mainmenu ul {
+	list-style: none;
+}
+
+.mainmenu ul li {
+	position: relative;
+	float: left;
+}
+
+.mainmenu ul li a {
+	font-size: 20px;
+	padding: 20px;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+}
+
+.mainmenu ul li a:hover {
+	background: #ebebeb;
+	color: #166abc;
+}
+
+.mainmenu ul li ul {
+	position: absolute;
+	width: 200px;
+	display: none;
+}
+
+.mainmenu ul li ul li {
+	width: 100%;
+}
+
+.mainmenu ul li:hover > ul {
+	display: initial;
+}
+
+.container {
+	width: 100vh;
+	height: 100vw;
+	transform-origin: top left;
+	transform: rotate(-90deg) translateX(-100vh);
+	position: absolute;
+	margin-top: 110px;
+}
+
+.wrap {
+	background-color: #000;
+	display: flex;
+	width: 1060vw;
+	transform-origin: top left;
+	transform: rotate(90deg) translateY(-100vh);
+}
+
+.container .wrap img {
+	margin: 40px;
+	height: 60vh;
+	width: 60vw;
+	position: relative;
+}

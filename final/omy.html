@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="omy.css">
+	<title>animation/o!my</title>
+</head>
+<body>
+	<header>
+		<a href="index.html" class="title">☽  alison杨</a>
+		<nav class="mainmenu">
+			<ul>
+				<li><a href="sketchbook.html">sketchbook</a></li>
+				<li><a href="animation.html">animation</a></li>
+				<li><a href="photography.html">photography</a>
+					<ul>
+						<li><a href="unrolled.html">unrolled</a></li>
+						<li><a href="savetheday.html">save the day</a></li>
+					</ul>
+				</li>
+				<li><a href="about.html">about</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<article class="container">
+		<h2 id="title">o!my</h2>
+		<h2>Logline</h2>
+		<p>An energetic tennis ball comes to life and meets a new friend.</p>
+		<br>
+		<br>
+		<video width="100%" height="100%" controls>
+			<source src="img/omy.mp4" type="video/mp4">
+		</video>
+	</article>
+
+	<script type="text/javascript">
+		var time = new Date();
+		var hour = time.getHours();
+		console.log(hour);
+		if (hour < 7 || hour > 19)
+			document.body.style.backgroundImage = "url(img/DSC06623-8.jpg)";
+		else
+			document.body.style.backgroundImage = "url(img/DSC06623-7.jpg)";
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="savetheday.css">
+	<title>photography/save the day</title>
+</head>
+<body>
+	<header>
+		<a href="index.html" class="title">☽  alison杨</a>
+		<nav class="mainmenu">
+			<ul>
+				<li><a href="sketchbook.html">sketchbook</a></li>
+				<li><a href="animation.html">animation</a></li>
+				<li><a href="photography.html">photography</a>
+					<ul>
+						<li><a href="unrolled.html">unrolled</a></li>
+						<li><a href="savetheday.html">save the day</a></li>
+					</ul>
+				</li>
+				<li><a href="about.html">about</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="container">
+		<a href="svtheday/DSC08499.jpg"><img src="svtheday/DSC08499.jpg" alt="tot"></a>
+		<a href="svtheday/DSC09805.jpg"><img src="svtheday/DSC09805.jpg" alt="batb"></a>
+		<a href="svtheday/DSC09637.jpg"><img src="svtheday/DSC09637.jpg" alt="dumbosp"></a>
+		<a href="svtheday/DSC06092-2.jpg"><img src="svtheday/DSC06092-2.jpg" alt="dumbosu"></a>
+		<a href="svtheday/DSC06951.jpg"><img src="svtheday/DSC06951.jpg" alt="gelato"></a>
+		<a href="svtheday/DSC07583.jpg"><img src="svtheday/DSC07583.jpg" alt="orange"></a>
+		<a href="svtheday/DSC03973.jpg"><img src="svtheday/DSC03973.jpg" alt="enchantment"></a>
+		<a href="svtheday/DSC03255.jpg"><img src="svtheday/DSC03255.jpg" alt="fantasmic"></a>
+	</div>
+
+	<script type="text/javascript">
+		var time = new Date();
+		var hour = time.getHours();
+		console.log(hour);
+		if (hour < 7 || hour > 19)
+			document.body.style.backgroundImage = "url(img/DSC06623-8.jpg)";
+		else
+			document.body.style.backgroundImage = "url(img/DSC06623-7.jpg)";
+	</script>
+
+</body>
+</html>

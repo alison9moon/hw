@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="sketchbook.css">
+	<title>sketchbook</title>
+</head>
+<body>
+	<header>
+		<a href="index.html" class="title">☽  alison杨</a>
+		<nav class="mainmenu">
+			<ul>
+				<li><a href="sketchbook.html">sketchbook</a></li>
+				<li><a href="animation.html">animation</a></li>
+				<li><a href="photography.html">photography</a>
+					<ul>
+						<li><a href="unrolled.html">unrolled</a></li>
+						<li><a href="savetheday.html">save the day</a></li>
+					</ul>
+				</li>
+				<li><a href="about.html">about</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="container">
+		<a href="sktchbk/IMG_4406.JPG"><img src="sktchbk/IMG_4406.JPG" alt="dani"></a>
+		<a href="sktchbk/IMG_4907.JPG"><img src="sktchbk/IMG_4907.JPG" alt="amy"></a>
+		<a href="sktchbk/IMG_4912.JPG"><img src="sktchbk/IMG_4912.JPG" alt="harvey"></a>
+		<a href="sktchbk/IMG_5047.JPG"><img src="sktchbk/IMG_5047.JPG" alt="maya"></a>
+		<a href="sktchbk/IMG_5167.JPG"><img src="sktchbk/IMG_5167.JPG" alt="hina"></a>
+		<a href="sktchbk/IMG_5257.JPG"><img src="sktchbk/IMG_5257.JPG" alt="eunoia"></a>
+		<a href="sktchbk/IMG_5346.JPG"><img src="sktchbk/IMG_5346.JPG" alt="nat"></a>
+		<a href="sktchbk/IMG_5655.JPG"><img src="sktchbk/IMG_5655.JPG" alt="ggmgy"></a>
+	</div>
+
+	<script type="text/javascript">
+		var time = new Date();
+		var hour = time.getHours();
+		console.log(hour);
+		if (hour < 7 || hour > 19)
+			document.body.style.backgroundImage = "url(img/DSC06623-8.jpg)";
+		else
+			document.body.style.backgroundImage = "url(img/DSC06623-7.jpg)";
+	</script>
+
+</body>
+</html>
